@@ -8,6 +8,7 @@ mplayer.ini
 test_sdl
 test_exec
 demo_getopt
+*.o
 *.d
 *.bb
 *.bbg
@@ -18,3 +19,4 @@ demo_getopt
 chooser
 .quality.ini
 test_exec_mplayer
+*/libtest_sdl.a
