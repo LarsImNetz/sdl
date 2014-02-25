@@ -1,0 +1,20 @@
+TODO for sdl-musicplay v2
+-------------------------
+The controller must be able to handle properties.
+
+Do some tests in test_shl.cc:test_map
+
+Entweder wandel ich alles in strings um, was nicht sehr performant ist, oder
+ich behandle jeden Typen einzeln, was sehr aufwendig werden kann.
+Oder Ich erstelle einen Variant/Any typen, der die Typen für mich generalisiert.
+
+speichern/laden
+
+Umbau der dispatcher von KeyEvents zu MetaEvents, um dann mal auf Joystick
+steuerung umzuschalten
+
+- use a config/property file
+
+Picture-Viewer
+--------------
+Einfacher betrachter für Meine Bilder.
