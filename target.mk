@@ -9,6 +9,9 @@ propper: clean
 
 distclean: propper
 
+# debug:
+#	debug
+
 coverage:
 	gcov -f $(OBJS_MAIN_EXEC:.o=.cc)
 

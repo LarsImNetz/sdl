@@ -13,6 +13,11 @@ CFLAGS= -g -Wall
 # Benoetigte Zeit: 0.137243 sec.
 COVERAGE= -ftest-coverage -fprofile-arcs
 PERFOMANCE=-pg
+
+# to use the debug start Makefile with:
+# make debug=yes
+# make coverage=yes
+# make performance=yes
 ifdef debug
 	OPTIMIZE=-O0 
     DEBUG= -g3 -ggdb
